@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { Parallax } from "@/components/Parallax";
 import { useLenis } from "@studio-freight/react-lenis";
 import Image from "next/image";
+import { Parallax } from './Parallax';
 
 const ImageList = () => {
   const lenis = useLenis(({ scroll }) => {
