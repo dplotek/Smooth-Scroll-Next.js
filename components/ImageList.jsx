@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useLenis } from "@studio-freight/react-lenis";
+import { useLenis } from "lenis/react-lenis";
 import Image from "next/image";
 import { Parallax } from './Parallax';
 
