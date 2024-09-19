@@ -6,7 +6,10 @@ export default function Home() {
       <h1 className="font-medium text-4xl border border-solid border-white p-4">
         Smooth Scolling Using Lenis
       </h1>
-      <ImageList />
+      {/* <ImageList /> */}
+      <div className='min-h-screen bg-slate-800 w-full'>a</div>
+      <div className='min-h-screen bg-slate-900 w-full'>b</div>
+      <div className='min-h-screen bg-slate-950 w-full'>c</div>
     </main>
   );
 }
